@@ -1,0 +1,12 @@
+[package]
+publish = false
+edition = "2018"
+name = "tillie"
+version = "0.1.0"
+
+[dependencies]
+
+[dev-dependencies]
+chrono = { version = "^0.4.19", features = ["alloc", "serde"] }
+
+[build-dependencies]
